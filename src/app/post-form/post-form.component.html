@@ -1,0 +1,7 @@
+<div class="container" id="form" *ngIf="show">
+  <label>Title:</label>
+  <input class="input" type="text" name="title" [(ngModel)]="title" autocomplete="off"> 
+  <label>Thought:</label>
+  <textarea class="input2" name="comment" [(ngModel)]="subtext" form="usrform"></textarea>
+  <button type="submit" class="add" (click)="addItem()" (click)="toggle()">Add</button>
+</div>

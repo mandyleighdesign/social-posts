@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  position: relative;
+  font-family: sans-serif;
+  background: rgb(116, 230, 181);
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width:30%;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #000;
+  color: #000;
+  outline: none;
+}
+
+.input:focus {
+  width: 95%;
+  outline: none;
+}
+
+.input {
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+}
+
+textarea {
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 95%;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #000;
+  color: #000;
+  resize: vertical;
+  outline: none;
+}
+
+textarea:focus {
+  height: 150px;
+  outline: none;
+}
+
+textarea {
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+  
+}
+
+label {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.add {
+  padding: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #000;
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  outline: none;
+}
+
+.add:hover {
+  background-color: black;
+  color: #ffffff;
+  outline: none;
+}
+
+@media (max-width: 600px) {
+
+  .container {
+      width: 100%;
+  }
+}

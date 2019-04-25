@@ -1,0 +1,9 @@
+<div class="container">
+  <li *ngFor ="let post of posts; let i = index">
+    <div class="parent">
+      <p class="title">{{post.title}}</p>
+      <span (click)="deleteItem(i)" id="del">x</span>
+    </div>
+    <p class="subtext">{{post.subtext}}</p>
+  </li>
+</div>
